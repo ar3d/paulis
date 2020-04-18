@@ -154,20 +154,26 @@
         <img id="pos1" src="images/paulis_4.jpg">
         <img id="pos2" src="images/paulis_5.jpg">
         <img id="pos3" src="images/paulis_6.jpg">
+        <img id="pos3" src="images/paulis_7.jpg">
+        
                  
         <img id="hotspot" src="icone/hotspot.png">
         </a-assets>
       <!-- pos teleport hotspots -->
       <a-entity id="spots" hotspots>
         <a-entity id="group-pos1">
-          <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos1" position="7.99937 0.74975 -1.88659"></a-image>
-           <a-image spot="linkto:#pos3;spotgroup:group-pos3;infogroup:infogroup-pos3;infoparent:infogroup-pos1" position="-7.99937 0.74975 -1.88659"></a-image>
+          <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos1" position="0 3.41972 -9.32426"></a-image>
         </a-entity>
         <a-entity id="group-pos2" scale="0 0 0">
-          <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos2" position="-7.99937 0.74975 1.91"></a-image>
+          <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos2" position="0 0.34235 12.26596"></a-image>
+          <a-image spot="linkto:#pos3;spotgroup:group-pos3;infogroup:infogroup-pos3;infoparent:infogroup-pos2" position="0 1.00169 -10.09939"></a-image>
         </a-entity>
         <a-entity id="group-pos3" scale="0 0 0">
-          <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos3" position="7.98287 0.74975 -0.46182"></a-image>
+          <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos3" position="0 1.04367 11.4515"></a-image>
+          <a-image spot="linkto:#pos4;spotgroup:group-pos4;infogroup:infogroup-pos4;infoparent:infogroup-pos3" position="0 1.03381 -11.95179"></a-image>
+        </a-entity>
+        <a-entity id="group-pos4" scale="0 0 0">
+          <a-image spot="linkto:#pos3;spotgroup:group-pos3;infogroup:infogroup-pos3;infoparent:infogroup-pos4" position="-0.39243 1.03381 11.61062"></a-image>
         </a-entity>
       </a-entity>
       
