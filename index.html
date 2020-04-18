@@ -151,23 +151,41 @@
   <body>
     <a-scene background="color: #FAFAFA" inspector="https://cdn.jsdelivr.net/gh/aframevr/aframe-inspector@master/dist/aframe-inspector.min.js">
       <a-assets>
-        <img id="pos1" src="images/stazione_1.jpg">
-        <img id="pos2" src="images/stazione_2.jpg">
-        <img id="pos3" src="images/stazione_3.jpg">
+        <img id="pos1" src="images/paulis_4.jpg">
+        <img id="pos2" src="images/paulis_5.jpg">
+        <img id="pos3" src="images/paulis_6.jpg">
+        <img id="pos4" src="images/paulis_7.jpg">
+        <img id="pos5" src="images/paulis_8.jpg">
+        <img id="pos6" src="images/paulis_9.jpg">
+        <img id="pos7" src="images/paulis_10.jpg">
+        <img id="pos8" src="images/paulis_11.jpg">
+        <img id="pos9" src="images/paulis_12.jpg">
+        <img id="pos10" src="images/paulis_13.jpg">
+        <img id="pos11" src="images/paulis_14.jpg">
+        <img id="pos12" src="images/paulis_15.jpg">
+        <img id="pos13" src="images/paulis_16.jpg">
+        <img id="pos14" src="images/paulis_17.jpg">
+        <img id="pos15" src="images/paulis_18.jpg">
+        <img id="pos16" src="images/paulis_19.jpg">
+        <img id="pos17" src="images/paulis_20.jpg">
+        <img id="pos18" src="images/paulis_21.jpg">
+        <img id="pos19" src="images/paulis_22.jpg">
+        <img id="pos20" src="images/paulis_23.jpg">
                  
         <img id="hotspot" src="icone/hotspot.png">
         </a-assets>
       <!-- pos teleport hotspots -->
       <a-entity id="spots" hotspots>
-        <a-entity id="group-pos1">
-          <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos1" position="7.99937 0.74975 -1.88659"></a-image>
-           <a-image spot="linkto:#pos3;spotgroup:group-pos3;infogroup:infogroup-pos3;infoparent:infogroup-pos1" position="-7.99937 0.74975 -1.88659"></a-image>
+        <a-entity id="group-pos1" scale="0 0 0">
+          <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos1" position="-7.99937 0.74975 1.91"></a-image>
         </a-entity>
-        <a-entity id="group-pos2" scale="0 0 0">
-          <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos2" position="-7.99937 0.74975 1.91"></a-image>
+         <a-entity id="group-pos2" scale="0 0 0">
+          <a-image spot="linkto:#pos3;spotgroup:group-pos3;infogroup:infogroup-pos3;infoparent:infogroup-pos2" position="-7.99937 0.74975 1.91"></a-image>
+           <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos2" position="-7.99937 0.74975 -1.88659"></a-image>
         </a-entity>
-        <a-entity id="group-pos3" scale="0 0 0">
-          <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos3" position="7.98287 0.74975 -0.46182"></a-image>
+         <a-entity id="group-pos3" scale="0 0 0">
+          <a-image spot="linkto:#pos4;spotgroup:group-pos4;infogroup:infogroup-pos4;infoparent:infogroup-pos3" position="-7.99937 0.74975 1.91"></a-image>
+           <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos3" position="-7.99937 0.74975 -1.88659"></a-image>
         </a-entity>
       </a-entity>
       
