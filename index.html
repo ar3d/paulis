@@ -158,6 +158,11 @@
         <img id="pos5" src="images/paulis_8.jpg">
         <img id="pos6" src="images/paulis_10.jpg">
         <img id="pos7" src="images/paulis_9.jpg">
+        <img id="pos8" src="images/paulis_19.jpg">
+        <img id="pos9" src="images/paulis_20.jpg">
+        <img id="pos10" src="images/paulis_22.jpg">
+        <img id="pos11" src="images/paulis_23.jpg">
+        
         
         
                  
@@ -167,6 +172,7 @@
       <a-entity id="spots" hotspots>
         <a-entity id="group-pos1">
           <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos1" position="0 1.5 -10"></a-image>
+          <a-image spot="linkto:#pos8;spotgroup:group-pos8;infogroup:infogroup-pos8;infoparent:infogroup-pos1" position="3 1.5 -10"></a-image>
         </a-entity>
         <a-entity id="group-pos2" scale="0 0 0">
           <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos2" position="-1.788 0 12.26596"></a-image>
@@ -191,6 +197,21 @@
         <a-entity id="group-pos7" scale="0 0 0">
           <a-image spot="linkto:#pos5;spotgroup:group-pos5;infogroup:infogroup-pos5;infoparent:infogroup-pos7" position="-2.70 1.03381 12.6"></a-image>
         </a-entity>
+        <a-entity id="group-pos8" scale="0 0 0">
+          <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos8" position="-2.70 1.03381 12.6"></a-image>
+          <a-image spot="linkto:#pos9;spotgroup:group-pos9;infogroup:infogroup-pos9;infoparent:infogroup-pos8" position="-2.70 1.03381 12.6"></a-image>
+        </a-entity>
+        <a-entity id="group-pos9" scale="0 0 0">
+          <a-image spot="linkto:#pos8;spotgroup:group-pos8;infogroup:infogroup-pos8;infoparent:infogroup-pos9" position="-8.10 1.03381 -2.32"></a-image>
+          <a-image spot="linkto:#pos10;spotgroup:group-pos10;infogroup:infogroup-pos10;infoparent:infogroup-pos9" position="1.90 1.03381 -7.35"></a-image>
+        </a-entity>
+        <a-entity id="group-pos10" scale="0 0 0">
+          <a-image spot="linkto:#pos9;spotgroup:group-pos9;infogroup:infogroup-pos9;infoparent:infogroup-pos10" position="-8.10 1.03381 -2.32"></a-image>
+          <a-image spot="linkto:#pos11;spotgroup:group-pos11;infogroup:infogroup-pos11;infoparent:infogroup-pos10" position="1.90 1.03381 -7.35"></a-image>
+        </a-entity>
+        <a-entity id="group-pos11" scale="0 0 0">
+          <a-image spot="linkto:#pos10;spotgroup:group-pos10;infogroup:infogroup-pos10;infoparent:infogroup-pos11" position="-2.70 1.03381 12.6"></a-image>
+        </a-entity>
       </a-entity>
       
        <!-- info spots -->
@@ -208,6 +229,14 @@
          <a-entity id="infogroup-pos6" scale="0 0 0">
         </a-entity>
         <a-entity id="infogroup-pos7" scale="0 0 0">
+        </a-entity>
+        <a-entity id="infogroup-pos8" scale="0 0 0">
+        </a-entity>
+        <a-entity id="infogroup-pos9" scale="0 0 0">
+        </a-entity>
+        <a-entity id="infogroup-pos10" scale="0 0 0">
+        </a-entity>
+        <a-entity id="infogroup-pos11" scale="0 0 0">
         </a-entity>
        </a-entity>
       
