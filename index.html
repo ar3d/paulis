@@ -154,21 +154,20 @@
         <img id="pos1" src="images/paulis_4.jpg">
         <img id="pos2" src="images/paulis_5.jpg">
         <img id="pos3" src="images/paulis_6.jpg">
-                         
+                 
         <img id="hotspot" src="icone/hotspot.png">
         </a-assets>
       <!-- pos teleport hotspots -->
       <a-entity id="spots" hotspots>
-        <a-entity id="group-pos1" scale="0 0 0">
-          <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos1" position="-7.99937 0.74975 1.91"></a-image>
+        <a-entity id="group-pos1">
+          <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos1" position="7.99937 0.74975 -1.88659"></a-image>
+           <a-image spot="linkto:#pos3;spotgroup:group-pos3;infogroup:infogroup-pos3;infoparent:infogroup-pos1" position="-7.99937 0.74975 -1.88659"></a-image>
         </a-entity>
-         <a-entity id="group-pos2" scale="0 0 0">
-          <a-image spot="linkto:#pos3;spotgroup:group-pos3;infogroup:infogroup-pos3;infoparent:infogroup-pos2" position="-7.99937 0.74975 1.91"></a-image>
-           <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos2" position="-7.99937 0.74975 -1.88659"></a-image>
+        <a-entity id="group-pos2" scale="0 0 0">
+          <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos2" position="-7.99937 0.74975 1.91"></a-image>
         </a-entity>
-         <a-entity id="group-pos3" scale="0 0 0">
-          <a-image spot="linkto:#pos4;spotgroup:group-pos4;infogroup:infogroup-pos4;infoparent:infogroup-pos3" position="-7.99937 0.74975 1.91"></a-image>
-           <a-image spot="linkto:#pos2;spotgroup:group-pos2;infogroup:infogroup-pos2;infoparent:infogroup-pos3" position="-7.99937 0.74975 -1.88659"></a-image>
+        <a-entity id="group-pos3" scale="0 0 0">
+          <a-image spot="linkto:#pos1;spotgroup:group-pos1;infogroup:infogroup-pos1;infoparent:infogroup-pos3" position="7.98287 0.74975 -0.46182"></a-image>
         </a-entity>
       </a-entity>
       
@@ -179,8 +178,6 @@
         <a-entity id="infogroup-pos2" scale="0 0 0">
         </a-entity>
         <a-entity id="infogroup-pos3" scale="0 0 0">
-        </a-entity>
-        <a-entity id="infogroup-pos4" scale="0 0 0">
         </a-entity>
        </a-entity>
       
